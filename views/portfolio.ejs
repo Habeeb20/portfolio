@@ -188,6 +188,26 @@
         width: 200px;
         margin-left: 5%;
         border: 3px solid var(--main-color);
+        animation: float-abt 3s ease infinite;
+        
+    }
+        
+    
+
+   
+
+    @keyframes float-abt {
+        0% {
+            transform: translateY(0);
+        }
+
+        50% {
+            transform: translateY(-2.4rem);
+        }
+        100% {
+            transform: translateY(0);
+        }
+        
         
     }
 
@@ -489,6 +509,39 @@
 
     }
 
+    @media (max-width:720px){
+        body {
+            overflow-x: hidden;
+        }
+        html {
+            font-size: 0.65rem;
+        }
+
+        .home-content {
+            flex-direction: column-reverse;
+        }
+
+        #services {
+            display: block;
+            padding-top: 35%;
+        }
+
+        #portfolio {
+            display: block;
+            padding-top: 45%;
+            min-height: 100vh;
+        }
+
+        #contact {
+            display: block;
+            padding-top: 2%;
+            font-size: 1.2rem;
+           
+            height: 90vh;
+        }
+
+    }
+
     @media (max-width:617px) {
         #about {
             padding-top: 19%;
@@ -631,9 +684,9 @@
         <div class="about-content">
             <h2 class="heading">About <span>Me</span></h2>
             <h3>Frontend Developer</h3>
-            <p>Designing of websites is my hobby. I also focus on the repairing the flaws in the user interface of <br>
-                websites. My tools are html,css, js and jquery. I use these tools effectively for the satisfaction <br>
-                of my clients 
+            <p>My name is habeeb. I am a frontend developer and also a computer engineer. I design any kind of websites such as 
+               ecommerce, blog,social media etc. I also repair hardwares.my frontend development tools are HTML,CSS,javascript,jquery,npm,git and github
+                You can always contact me on:08166489562, 08055603221, and also on Ademolawaliyu1@gmail.com.
             </p>
             <a href="#" class="btn">Read More</a>
         </div>
@@ -644,20 +697,20 @@
         <div class="services-container">
             <div class="services-box">
                 <h3>Web designing</h3>
-                <p>design</p>
+                <p>we design websites</p>
                 <a href="#" class="btn">Read More</a>
             </div>
 
 
             <div class="services-box">
                 <h3>frontend development</h3>
-                <p>develop</p>
+                <p>we develop websites</p>
                 <a href="#" class="btn">Read More</a>
             </div>
 
             <div class="services-box">
                 <h3>Computer engineering</h3>
-                <p>repair</p>
+                <p>we repair hardwares</p>
                 <a href="#" class="btn">Read More</a>
             </div>
         </div>
@@ -670,7 +723,7 @@
                 <img src="pic4.png" alt="">
                 <div class="portfolio-layer">
                     <h4>Web Design</h4>
-                    <p>lorem ipsusdtydedeyeydduusjkxkssjwdd</p>
+                    <p>designed an ecommerce websites</p>
 
                 </div>
             </div>
@@ -681,8 +734,8 @@
             <div class="portfolio-box">
                 <img src="pic4.png" alt="">
                 <div class="portfolio-layer">
-                    <h4>Web Design</h4>
-                    <p>lorem ipsusdtydedeyeydduusjkxkssjwdd</p>
+                    <h4>Web development</h4>
+                    <p>developed a blog websites</p>
 
                 </div>
             </div>
@@ -691,7 +744,7 @@
                 <img src="pic6.png" alt="">
                 <div class="portfolio-layer">
                     <h4>Web Design</h4>
-                    <p>lorem ipsusdtydedeyeydduusjkxkssjwdd</p>
+                    <p>designed a social media account</p>
 
                 </div>
             </div>
@@ -699,8 +752,8 @@
             <div class="portfolio-box">
                 <img src="pic6.png" alt="">
                 <div class="portfolio-layer">
-                    <h4>Web Design</h4>
-                    <p>lorem ipsusdtydedeyeydduusjkxkssjwdd</p>
+                    <h4>Web development</h4>
+                    <p>also developed a mini-ecommerce website</p>
 
                 </div>
             </div>
